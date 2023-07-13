@@ -2,7 +2,7 @@
 function Header() {
     return(<header>Hello World
             <nav className='nav'>
-                <img src='./1024px-Tokyo_Stabbing.jpg' width='100px'></img>
+                <img src='./1024px-Tokyo_Stabbing.jpg' className='img'></img>
                 <ul className='nav-items'>
                     <li>
                         Pricing
@@ -18,10 +18,9 @@ function Header() {
         </header>
 )}
 
-
 function Footer(){
     return(
-        <footer>Hoofard Code</footer>
+        <footer className='footer'>Hoofard Code</footer>
     )
 }
 
@@ -29,7 +28,7 @@ function Body (){
     return(
         <div>
         <h1>lorem ipsum</h1>
-        <ol>
+        <ol className='list-items'>
             <li>Carpe Diem</li>
             <li>Vini Vidi Vici</li>
             <li>Arcane</li>

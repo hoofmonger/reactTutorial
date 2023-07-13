@@ -2,12 +2,35 @@
     display: flex;
    align-items: center;
    justify-content: space-between;
+   background-color: gold;
 
 }
 .nav-items{
     list-style: none;
     display: flex;
+    align-items: center;
+    color: aqua;
+    background-color: darkgreen;
 }
 .nav-items > li{
     padding: 10px;
+}
+.img{
+    width: 100px;
+}
+
+.list-items{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    list-style: none;
+    color: lightsalmon;
+    background-color: aquamarine;
+}
+
+.footer{
+    background-color: gray;
+    color: crimson;
+    display: flex;
+    justify-content: center;
 }
